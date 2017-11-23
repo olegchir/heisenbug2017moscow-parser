@@ -34,6 +34,7 @@ import java.util.stream.Collectors;
 public class AppRunner implements CommandLineRunner {
     public String pUrl = "https://heisenbug-moscow.ru/";
     public String pWorkDir = "C:/temp/hb";
+    public int imageNum = 0;
 
     @Override
     public void run(String... args) throws Exception {
@@ -299,10 +300,11 @@ public class AppRunner implements CommandLineRunner {
 
                 if (downloadImages) {
                     try (InputStream in = new URL(imgSrc).openStream()) {
-                        String filename = String.format("%s%s.jpg", getImageDirFileName() + File.separator, speaker.getSpeaker());
+                        String filename = String.format("%s%d-%s.jpg", getImageDirFileName() + File.separator, imageNum, speaker.getSpeaker());
                         Path path = Paths.get(filename);
                         Files.deleteIfExists(path);
                         Files.copy(in, path);
+                        imageNum++;
                     }
                 }
             }
