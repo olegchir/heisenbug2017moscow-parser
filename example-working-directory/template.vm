@@ -1,0 +1,33 @@
+$header
+
+#set( $H = '#' )
+$HПрограмма
+
+#foreach( $talk in $talks )
+#if($talk.name.contains("Тестирование браузерной производительности"))$H$HДень первый. 8 декабря.
+
+#end
+#if($talk.name.contains("Строим свой тестовый фреймворк"))$HДень второй. 9 декабря.
+
+#end
+$H$H [$talk.name]($talk.url)
+
+#foreach( $s in $talk.speakers )**$s.speaker**/$s.company#if( $foreach.hasNext ); #end#end
+
+
+#foreach( $d in $talk.description )$d #end
+
+
+#foreach( $s in $talk.speakers )
+<img src="$s.imageUrl" width=200 align=left> **$s.speaker**
+
+#if($!s.bio.size() != 0)#foreach( $b in $s.bio)$b#end#end
+<br clear=all>
+
+
+#end
+<hr/>
+
+#end
+
+$footer

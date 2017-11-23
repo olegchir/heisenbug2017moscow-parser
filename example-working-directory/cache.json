@@ -1,0 +1,335 @@
+[ {
+  "id" : "Тестирование браузерной производительности web приложений (включая javascript, rendering, вот это всё)",
+  "name" : "Тестирование браузерной производительности web приложений (включая javascript, rendering, вот это всё)",
+  "speakers" : [ {
+    "speaker" : "Владимир Ситников",
+    "company" : "Netcracker",
+    "bio" : [ "Десять лет работает над производительностью и масштабируемостью NetCracker OS — ПО, используемого операторами связи для автоматизации процессов управления сетью и сетевым оборудованием. Увлекается вопросами производительности Java и Oracle Database. В его обязанности входит планирование нагрузочных замеров, анализ и объяснение полученных результатов. Владимир является commiter’ом в Apache JMeter." ],
+    "imageUrl" : "https://images.contentful.com/ut4a3ciohj8i/1Zh17Jm8ZmSeokeOCcKAWe/885151b44fc1034f237485e9f52a6248/sitnikov.jpg?w=200"
+  } ],
+  "url" : "https://heisenbug-moscow.ru/talks/2017/msk/ik9jansi0gykw2egosq2c/",
+  "description" : [ "Часто под словом \"тестирование производительности\" подразумевают только тестирование серверной части. Гораздо реже тестируют непосредственно работу браузера. В простом случае, подключаем Яндекс Метрику и/или Google Analytics, и вперёд. Но есть нюанс: в корпоративной среде отправка данных в ЯМ/GA может быть недоступна, да и простого подключению ЯМ/GA не достаточно, чтобы собирать достаточную информацию о производительности приложения. В докладе мы рассмотрим то, как измерять длительность операций в браузере. Узнаем почему времена получаемые от Selenium показывают погоду, узнаем какая польза от Selenium тестов может быть при замерах производительности. Посмотрим на boomerang.js и узнаем на какие моменты обращать внимание при интеграции подобных библиотек в проект. Доклад не затрагивает вопросы оптимизации браузера/сервера." ]
+}, {
+  "id" : "Selenide Puzzlers",
+  "name" : "Selenide Puzzlers",
+  "speakers" : [ {
+    "speaker" : "Алексей Виноградов",
+    "company" : "Radio QA",
+    "bio" : [ "Работает в IT-проектах в Германии более 15 лет. Консультирует по вопросам тестирования и автоматизации. Младший разработчик фреймворка Selenide. Основатель и один из ведущих подкаста Radio QA." ],
+    "imageUrl" : "https://images.contentful.com/ut4a3ciohj8i/1cSEtolh8S2MMyQoogcamK/68f9b77cc10439f186f15a8a945f9eb2/vinogradov.jpg?w=200"
+  }, {
+    "speaker" : "Андрей Солнцев",
+    "company" : "Codeborne",
+    "bio" : [ "Андрей — разработчик в эстонской компании Codeborne. Автор фреймворка Selenide, организатор таллиннского Devclub, частый докладчик на конференциях. Ярый приверженец экстремального программирования, автоматических тестов, парного программирования и чистого кода." ],
+    "imageUrl" : "https://images.contentful.com/ut4a3ciohj8i/335EioMAg0qGYi6eIgkO4y/19ac9cb6b8bb88e9b3261c0ba1d2b153/asolntsev__1_.jpg?w=200"
+  } ],
+  "url" : "https://heisenbug-moscow.ru/talks/2017/msk/74qfnsvag4gcsi4sw8gyoi/",
+  "description" : [ "Puzzlers — это доклад-викторина, в которой все зрители станут непосредственными участниками шоу. Ведущие придумали для вас с полдюжины интересных задачек, почти все из которых взяты из реальной проектной практики авторов. К каждой задачке вам продемонстрируют список вариантов и дадут убедительные аргументы в пользу каждого! Вам всего лишь нужно будет выбрать правильный. Звучит просто? А мы уверены — задачки будут сложнее, чем кажется на первый взгляд. Хотите пари? :)", "Тема данного Puzzler-а — фреймворк для UI тестирования Selenide. Вопросы доступны для новичков с поверхностными знаниями фреймворка, но об некоторые из них сломают зубы даже профессионалы.", "Мы ожидаем, что посетители доклада уже имели дело с Selenide на работе или активно упражнялись дома, вы же не хотите просто угадывать?", "После каждого задания ведущие конечно же раскроют и объяснят правильный ответ, а также продемонстрируют практическое применение знаний, полученных от решения." ]
+}, {
+  "id" : "Enterprise Automation with Selenium and why it has very little to do with Selenium",
+  "name" : "Enterprise Automation with Selenium and why it has very little to do with Selenium",
+  "speakers" : [ {
+    "speaker" : "Michael Palotas",
+    "company" : "Element34 Solutions GmbH",
+    "bio" : [ "Founder and CEO of Element34 Solutions. Co-developed Selenium Grid. Ex-eBay Head of Quality Engineering. For more than 10 years Michael Palotas shaped software and test engineering at eBay International as the Head of Quality Engineering. He was key responsible for leading the transformation for eBay International from a waterfall to a highly agile organization employing new paths and approaches especially in the field of engineering practices. Before joining eBay, Michael held lead roles in companies like Ericsson, Nortel Networks, Intel." ],
+    "imageUrl" : "https://images.contentful.com/ut4a3ciohj8i/36QALDb8U0emkWoM6seMeU/d3d8b79bc552696d5aea951fc4abd00e/michael_palotas__1_.jpg?w=200"
+  } ],
+  "url" : "https://heisenbug-moscow.ru/talks/2017/msk/3laec6eiase0u2kcaguck4/",
+  "description" : [ "As Selenium is becoming a W3C standard, more and more organizations are moving to Selenium as their GUI automation tool. Most teams focus on writing tests and tackling issues via Selenium itself.", "However, in our experience Selenium is usually the smallest \"problem\" in getting an enterprise ready test automation solution off the ground. This talk shows cases with many practical examples how test automation with Selenium boils down to being a full-blown software project, that needs to be treated and staffed as such. It will show the major pitfalls that prevent teams to build a scalable and reliable automation solution with the Selenium tool family. And it will show how to apply a lean approach in making test automation with Selenium a full success." ]
+}, {
+  "id" : "Разработка и тестирование с Google",
+  "name" : "Разработка и тестирование с Google",
+  "speakers" : [ {
+    "speaker" : "Всеволод Брекелов",
+    "company" : "Grid Dynamics",
+    "bio" : [ "Более 5 лет в тестировании программного обеспечения/автоматизации тестирования. Последний год работает Full Stack Developer/Tech Lead.", "Опыт построения автоматизации тестирования с нуля для mobile, desktop, web-проектов (в основном для финансовых компаний). Любит участвовать в хакатонах и работать с умными коллегами. Провёл много собеседований (более 200, и уже перестал считать) для инженеров по автоматизации тестирования, разработчиков, аналитиков.", "Последние несколько лет работает в компании Grid Dynamics. Сейчас проживает в Калифорнии, работая по контракту в Google." ],
+    "imageUrl" : "https://images.contentful.com/ut4a3ciohj8i/1ahedOz3nkQ8aqwIMQa6mE/7fc7128e257dadfa74222865c1ea141d/brekelov_v.jpg?w=200"
+  } ],
+  "url" : "https://heisenbug-moscow.ru/talks/2017/msk/dbjuwnmisssceqm2mai8i/",
+  "description" : [ "Доклад для тестировщиков и разработчиков, которым интересно узнать: какие грабли могут возникнуть при работе с Google Cloud Standard Environment, как их избежать (протестировать), какие Google-инструменты можно взять и использовать в своих проектах. Также вы узнаете чуть больше о GAE, Memcache, Task Queues, Objectify, Protobuf, Bazel." ]
+}, {
+  "id" : "Автоматизация мобильного тестирования родными средствами",
+  "name" : "Автоматизация мобильного тестирования родными средствами",
+  "speakers" : [ {
+    "speaker" : "Екатерина Батеева",
+    "company" : "Тинькофф Банк",
+    "bio" : [ "Старший инженер по автоматизированному тестированию в Тинькофф Банк. Работает в тестировании с 2012 года, занималась автоматизацией мессенджеров, веб-сервисов, банковских систем. Имеет значительный опыт в функциональном и интеграционном тестировании. Последние несколько лет занимается тестированием мобильных приложений." ],
+    "imageUrl" : "https://images.contentful.com/ut4a3ciohj8i/4ZENzrNXbOsgoIQ4WogCwu/4f580027c95533a81ef0982d9cb79a7a/_________________.jpg?w=200"
+  } ],
+  "url" : "https://heisenbug-moscow.ru/talks/2017/msk/5kq0xukls0kwgq4aogekye/",
+  "description" : [ "Популярность и удобство мобильных приложений растёт, и вот уже во многих областях пользователи гораздо чаще используют мобильные девайсы, чем персональные компьютеры. Поэтому автоматизированное тестирование не стоит на месте, и уже существует множество решений, которые подходят для большинства задач. Для тестирования мобильного банка Тинькофф мы искали надежное, конфигурируемое средство, которое также позволит эффективно решать наши задачи. Попробовав решение SeeTest Automation от компании Experitest, мы решили обратиться к средствам автоматизации, которые предоставляют сами разработчики Android и iOS — это UIAutomator, Espresso и XCUITest. В этом докладе мы хотим рассказать про наш опыт применения этих фреймворков, какие мы нашли плюсы и минусы, с какими сложностями мы столкнулись и как их решали. Доклад будет интересен как новичкам в автоматизации мобильного тестирования, так и уже опытным специалистам. Он позволит им расширить свой кругозор, оценить возможность использования того или иного фреймворка в своём проекте или же сделать выбор в пользу других решений." ]
+}, {
+  "id" : "Тема формулируется",
+  "name" : "Тема формулируется",
+  "speakers" : [ {
+    "speaker" : "Сергей Егоров",
+    "company" : "Uvita",
+    "bio" : [ "Сергей является активным участником Open Source-сообщества, членом Apache Software Foundation и контрибьютором в разного рода проектах (Apache Groovy, TestContainers, Spring Boot, JBoss Modules, Zipkin и не только). Он также является одним из основателей русскоязычного DevOps-подкаста «Two Devs One Ops», где делится своим опытом в вопросах DevOps, облачных решений и современных инфраструктурных решений вроде Docker (пользователь с 2014 года)." ],
+    "imageUrl" : "https://images.contentful.com/ut4a3ciohj8i/5m5v0UT6hOCSSww4C6CUCG/219bc8f4c7d1f7b189b2d649630559c7/Joker____________________________.jpg?w=200"
+  } ],
+  "url" : "https://heisenbug-moscow.ru/talks/2017/msk/5jkoam6i9o4482geewoy4w/",
+  "description" : [ "Will be later" ]
+}, {
+  "id" : "Белый ящик Пандоры",
+  "name" : "Белый ящик Пандоры",
+  "speakers" : [ {
+    "speaker" : "Никита Макаров",
+    "company" : "Одноклассники",
+    "bio" : [ "Работал в аутсорсинге и продуктовых компаниях. Занимался автоматизацей встраиваемых операционных систем на базе Linux, комплексных VPN-решений для бизнеса, программно-аппаратных комплексов. С января 2012 года является руководителем группы автоматизации тестирования в проекте Одноклассники." ],
+    "imageUrl" : "https://images.contentful.com/ut4a3ciohj8i/6HjOTaXimcECcYgA2E00wi/ec8b34220438012c169008af182d99eb/___________________________.jpg?w=200"
+  } ],
+  "url" : "https://heisenbug-moscow.ru/talks/2017/msk/1mwyiet6a8aaiuyw0uku6y/",
+  "description" : [ "В отрасли тестирования очень много говорится про «черный ящик», но изредка и вскользь упоминается «белый». Связано это в том числе и с тем, что тестирование «белого ящика» всегда считалась прерогативой программистов.", "В своем докладе ответим на эти и другие вопросы с примерами и наглядной демонстрацией." ]
+}, {
+  "id" : "Измеряем энергопотребление",
+  "name" : "Измеряем энергопотребление",
+  "speakers" : [ {
+    "speaker" : "Алексей Лавренюк",
+    "company" : "Яндекс",
+    "bio" : [ "Разработчик в Яндексе в службе нагрузочного тестирования. Делает инструменты и сервисы для тестирования производительности. Участвует в разработке таких open-source инструментов для нагрузочного тестирования, как Yandex.Tank (github.com/yandex/yandex-tank) и Pandora (github.com/yandex/pandora), а также сервиса для нагрузочного тестирования – Overload (overload.yandex.net)." ],
+    "imageUrl" : "https://images.contentful.com/ut4a3ciohj8i/3myhzEovDaEyo6WGkWkgAu/e2573625c78ff9df16df92f3df0a1f8b/_O2A8253.jpg?w=200"
+  }, {
+    "speaker" : "Тимур Торубаров",
+    "company" : "Яндекс",
+    "bio" : [ "Занимается производительностью в IT 8 лет. 4 года в телекоме (МТС и сопуствующие web/wap/sms сервисы), 4 года в Яндексе. Краткая история жизни: «... и неожиданно для нас выдал гораздо больше нагрузки, чем мы хотели...»." ],
+    "imageUrl" : "https://images.contentful.com/ut4a3ciohj8i/3gm3DDKwdOGEGwU4kaKq6q/b7abd8915e945cbfdb8866be4f6881a4/_______________________1_.jpg?w=200"
+  } ],
+  "url" : "https://heisenbug-moscow.ru/talks/2017/msk/gugqx957amm64o46qassc/",
+  "description" : [ "Раньше мы умели тестировать только производительность серверных приложений, теперь осваиваем мобильные приложения – это новый тренд. В том числе, мы тестируем энергопотребление телефонов. Мы расскажем, как научились собирать метрику энергопотребления хардверным способом. Мы собрали небольшую схему на базе Arduino, которая измеряет ток и написали библиотеку для работы с ней. Библиотеку мы выложили в open source (github.com/yandex-load/volta). Расскажем, как подготовить телефоны, собрать коробочки для замеров и как использовать библиотеку." ]
+}, {
+  "id" : "Как проверить систему, не запустив ее",
+  "name" : "Как проверить систему, не запустив ее",
+  "speakers" : [ {
+    "speaker" : "Андрей Сатарин",
+    "company" : "Яндекс",
+    "bio" : [ "Занимается тестированием распределенных систем в Яндексе. В своей карьере успел поработать в совершенно разных проектах: тестировал игру в Mail.ru, систему облачного детектирования в Лаборатории Касперского, систему расчета валютных цен в Deutsche Bank. Интересуется тестированием backend и распределенных систем." ],
+    "imageUrl" : "https://images.contentful.com/ut4a3ciohj8i/1wFbKvbOIwiiOqQk62UCiU/1cf8384e0b480727ef4592f2a38b671f/satarin.jpg?w=200"
+  } ],
+  "url" : "https://heisenbug-moscow.ru/talks/2017/msk/79fuksrzakwwqu4cmikw62/",
+  "description" : [ "Системы, которые мы разрабатываем становятся сложнее с каждым днем. И кажется нет спасения от вездесущей сложности, которая проникает во всe. Один из аспектов этой сложности — конфигурация. С одной стороны конфигурация сильно влияет на стабильность и доступность системы, с другой проверке ее корректности уделяется очень мало внимания. В своем докладе я расскажу, как мы тестируем конфигурацию и насколько это было полезно в нашем проекте.", "Этот доклад будет полезен всем, кто хочет узнать простой способ увеличения стабильности и доступности системы в продакшене." ]
+}, {
+  "id" : "Как выполнять много UI-тестов параллельно, используя Selenium Grid?",
+  "name" : "Как выполнять много UI-тестов параллельно, используя Selenium Grid?",
+  "speakers" : [ {
+    "speaker" : "Михаил Подцерковский",
+    "company" : "Avito",
+    "bio" : [ "Михаил работает в Avito, где занимается разработкой инструментов для тестирования." ],
+    "imageUrl" : "https://images.contentful.com/ut4a3ciohj8i/3Zoorjx9sIYoyOGUscU0a0/bf2b99c185ebb7328724776ece93e431/____________________________.png?w=200"
+  } ],
+  "url" : "https://heisenbug-moscow.ru/talks/2017/msk/whyxkmjsbqoo6ikkqecsy/",
+  "description" : [ "Как выполнять много UI-тестов параллельно, используя Selenium Grid? Никак, Selenium Grid не способен выполнять большое количество тестов параллельно.", "Хотите зарегистрировать действительно большое количество нод? Что ж, попробуйте. Хотите скорости? Её не будет — чем больше нод зарегистрировано на гриде, тем медленнее выполняется каждый тест. Хотите отказоустойчивость на случай, если Grid перестал отвечать? Тоже нет — вы не можете запустить несколько реплик и поставить перед ними балансировщик. Хотите обновить Grid без даунтайма и чтобы тесты, выполняющиеся в данный момент, не упали? Нет — это не про Selenium Grid. Хотите не держать тысячи Selenium-ов разных конфигураций в памяти, а поднимать их по требованию? Не получится.", "Хотите знать, как решить все эти проблемы? Тогда приглашаю вас послушать доклад." ]
+}, {
+  "id" : "Automate the impossible: blending the best of Android drivers",
+  "name" : "Automate the impossible: blending the best of Android drivers",
+  "speakers" : [ {
+    "speaker" : "Rajdeep Varma",
+    "company" : "Badoo",
+    "bio" : [ "Rajdeep is a Senior Test Automation engineer at Badoo. He has a passion for test automation. He has worked on automation of many mobile apps across various domains for more than 7 years. Rajdeep has authored open source testing tools \"parallel_calabash\" and \"nakal\" (RubyGems) for mobile apps testing." ],
+    "imageUrl" : "https://images.contentful.com/ut4a3ciohj8i/4hSZdMVaQwGScyEkA42wsq/fae17b855c523ab06b298c04c9022c0b/Rajdeep_Varma.jpg?w=200"
+  } ],
+  "url" : "https://heisenbug-moscow.ru/talks/2017/msk/4l06a7ypfmc4y6e00k44ku/",
+  "description" : [ "There's a shift towards open source mobile test automation tools happening today among developers and QAs. Whether it be Appium, Calabash or anything else: all are good, with some major limitations. But can we get the best of each in one tool?", "While a chosen tool may work well when you first start using it, things can quickly get out of hand with changing business requirements. But the world of open source is kind enough to let you fix the limitations yourself.", "This talk is going to be about speaker's encounter with this problem. Rajdeep has been working with Calabash-Android for a few years now. With new business requirements, he had to build more capabilities inside the driver. This talk is about the use-case, how Rajdeep solved it, what was learned, and what the options are for dealing with these issues." ]
+}, {
+  "id" : "Инструменты тестировщика",
+  "name" : "Инструменты тестировщика",
+  "speakers" : [ {
+    "speaker" : "Юлия Атлыгина",
+    "company" : "ALM Works",
+    "bio" : [ "В тестировании более 9 лет, последние из которых провела в ALM Works, разрабатывая плагины для Atlassian JIRA и Confluence. Роль тестировщика совмещает с ролями Product Owner и SAFe консультанта. Если есть вопросы по JIRA — не стесняйтесь задавать!" ],
+    "imageUrl" : "https://images.contentful.com/ut4a3ciohj8i/CDBxkPAFUWo8SCGaUO6mM/40c1ad33a565bd71fdfb5af17530c6ee/__________________1_.JPG?w=200"
+  } ],
+  "url" : "https://heisenbug-moscow.ru/talks/2017/msk/3ghfkenywccuws6q0saeyk/",
+  "description" : [ "Цель доклада: показать инструменты, которые можно будет использовать в тот же день, которые ускорят работу ручных тестировщиков, а также аналитиков-разработчиков и прочих.", "Многие думают, что ускорить ручные тесты можно только автоматизацией — но это не совсем так :) В данном докладе хотелось бы показать простые инструменты, которые бы позволили тратить меньше времени и при этом помогали бы увеличить тестовое покрытие.", "Целевая аудитория: ручные тестировщики, а также все, кому хоть иногда нужно что-то анализировать и делать руками." ]
+}, {
+  "id" : "The (Ab)use and misuse of test automation",
+  "name" : "The (Ab)use and misuse of test automation",
+  "speakers" : [ {
+    "speaker" : "Alan Page",
+    "company" : "Unity",
+    "bio" : [ "Alan Page has been a software tester for nearly 25 years. He was the lead author of the book \"How We Test Software at Microsoft\", contributed chapters for \"Beautiful Testing and Experiences of Test Automation: Case Studies of Software Test Automation\". He also writes about a variety of software engineering subjects (and other assorted rants) on his blog, and elsewhere on the internet. His latest “book” is a collection of essays on test automation called \"The A Word\".", "Alan joined Microsoft as a member of the Windows 95 team, and since then has worked on a variety of Windows releases, early versions of Internet Explorer, and Office Lync. Notably, Alan served for over two years as Microsoft’s Director of Test Excellence.", "In January of 2017, Alan left Microsoft to become the Director of Quality for Unity services." ],
+    "imageUrl" : "https://images.contentful.com/ut4a3ciohj8i/31DRIcKB2MsAAomyACcysg/89f01e9bd592c0366922a5ea194e16cf/alan_page__1_.jpg?w=200"
+  } ],
+  "url" : "https://heisenbug-moscow.ru/talks/2017/msk/65awpkh6vyyquuy0kgk0ww/",
+  "description" : [ "If you’re a tester who codes, chances are a big chunk of your job involves test automation — specifically writing tests that automate the user workflow. As a two-decade (and counting) veteran of software testing, Alan Page has seen a huge number of teams utterly fail in their test automation efforts — but he’s also been a part of a few teams who have been successful, and in this session he’ll share some of the patterns that work; as well as many that don’t.", "Alan will share strategies for successful automation, the challenge of flaky tests, the perils of UI automation, and many other tips based on experience in test and test automation across dozens of high volume products.", "Whether you’re deeply invested in test automation, or just getting started, this session will have practical tips you can apply to your own testing efforts immediately." ]
+}, {
+  "id" : "Тестирование геолокации в Badoo: шишки, камни, костыли и селфи-палка",
+  "name" : "Тестирование геолокации в Badoo: шишки, камни, костыли и селфи-палка",
+  "speakers" : [ {
+    "speaker" : "Александр Хозя",
+    "company" : "Badoo",
+    "bio" : [ "В тестировании 7 лет, столько же занимается тестированием мобильных приложений :slightly_smiling_face: Ответственный за всё ручное мобильное тестирование в компании Badoo. Обожает всевозможные гаджеты (одна из причин, почему пошёл в мобильное тестирование), тестирование методом свободного поиска, детективную работу по нахождению комплексных проблем." ],
+    "imageUrl" : "https://images.contentful.com/ut4a3ciohj8i/72eI68RI0oYq20Ymeyco2i/862b42c8b0f9ea9f5294b385dd0b65b5/Alexander_Khozya__1_.JPG?w=200"
+  }, {
+    "speaker" : "Николай Козлов",
+    "company" : "Badoo",
+    "bio" : [ "5+ лет опыта Андроид-гика." ],
+    "imageUrl" : "https://images.contentful.com/ut4a3ciohj8i/2A7NOAn2W8aSmq0YuqAaaI/c3c2dfb8ae98569083e17800acb9eeb0/______________________________2.jpg?w=200"
+  } ],
+  "url" : "https://heisenbug-moscow.ru/talks/2017/msk/3mowsg0erq88cicskgiiqy/",
+  "description" : [ "Работа с локациями достаточно нетривиальна и в процессе всплывает очень много моментов, которые сложно предугадать заранее. Мы постараемся осветить проблемы и нюансы, с которыми мы столкнулись, дать советы, рассказать об используемых инструментах. Информации по этому вопросу до сих пор не так много — будем рады поделиться ей со всеми желающими." ]
+}, {
+  "id" : "Бытовая классификация тестировщиков с точки зрения разработчика",
+  "name" : "Бытовая классификация тестировщиков с точки зрения разработчика",
+  "speakers" : [ {
+    "speaker" : "Николай Алименков",
+    "company" : "XP Injection",
+    "bio" : [ "Практикующий Java-техлид и Delivery Manager. Эксперт в разработке на Java, Agile-практиках и управлении проектами. Разрабатывает на Java более 12 лет, специализируется на разработке сложных распределённых масштабируемых систем. Активный участник и докладчик многих международных конференций. Основатель и тренер тренингового центра XP Injection. Организатор и идеолог конференций Selenium Camp, JEEConf, XP Days Ukraine и IT Brunch. Основатель «Клуба анонимных разработчиков»." ],
+    "imageUrl" : "https://images.contentful.com/ut4a3ciohj8i/1ymZyHvg64uIGqagaqUkgk/6ea953e8c1fef0ef39916b6076585cf4/alimenkov.jpg?w=200"
+  } ],
+  "url" : "https://heisenbug-moscow.ru/talks/2017/msk/1jtizrll7mqmscigqqoeqo/",
+  "description" : [ "Тестировщики часто говорят о противостоянии и конфликтах с разработчиками. Но ведь есть команды, где все живут в мире и согласии. Видимо, что-то тут не так? Хотелось бы поговорить о том, как тестировщиков видят сами разработчики. В докладе будет приведена забавная классификация. Кроме известного всем тестировщика-обезьянки будут представлены тестировщик-муха, тестировщик-нацист, тестировщик-панда и многие другие герои. Вы сможете лишний раз задуматься над тем, как вас видят со стороны и, возможно, изменить ситуацию к лучшему.", "Доклад будет также полезен менеджерам проектов и лидерам команд. Вы сможете быстрее распознавать те или иные шаблоны поведения тестировщиков и принимать меры по повышению уровня командной работы. Приходите, будет интересно!" ]
+}, {
+  "id" : "Строим свой тестовый фреймворк, c Jenkins Pipeline и библиотеками",
+  "name" : "Строим свой тестовый фреймворк, c Jenkins Pipeline и библиотеками",
+  "speakers" : [ {
+    "speaker" : "Олег Ненашев",
+    "company" : "CloudBees",
+    "bio" : [ "Разработчик в CloudBees, состоит в core team проекта Jenkins. C 2008 года занимается автоматизацией, инфраструктурой и фреймворкостроением для крупных программно-аппаратных проектов с помощью Jenkins и десятков других тулов. Пишет код, поддерживает ядро и плагины Jenkins, организует митапы в СПб и других городах." ],
+    "imageUrl" : "https://images.contentful.com/ut4a3ciohj8i/T1TM64S6CyCqmKga4wYck/f0c89baf27aa3296566dd52020b4a17d/Oleg_Nenashev.jpg?w=200"
+  } ],
+  "url" : "https://heisenbug-moscow.ru/talks/2017/msk/1f0wvztnneoo0gc6oweaio/",
+  "description" : [ "Появление Pipeline изменило подходы к автоматизации задач в Jenkins, особенно в случае параллельных сборок и тестов. В нем можно построить свой тестовый фреймворк и предоставить его автоматизаторам как набор библиотек.", "На примере Java-проектов покажем, как можно строить Pipeline-библиотеки для задач QA и переносить проекты на новую платформу. Мы интегрируем Docker, Maven, JUnit, FindBugs, Сoverity, а потом реализуем динамическую параллелизацию тестов. Также поговорим о подводных камнях и о том, как можно эффективно разрабатывать, тестировать и поддерживать подобные фреймворки." ]
+}, {
+  "id" : "Как у вас в компании сломана статистика пользовательского поведения",
+  "name" : "Как у вас в компании сломана статистика пользовательского поведения",
+  "speakers" : [ {
+    "speaker" : "Роман Поборчий",
+    "company" : "Независимый консультант по презентациям",
+    "bio" : [ "До 2004 года работал в Sun Microsystems, принимал участие в разработке JDK. Затем работал в Intel, где тоже занимался проектами, связанными с Java.", "После этого шесть лет провёл в Яндексе, где строил метрики качества поиска. С 2015 года сменил род деятельности, ушёл на вольные хлеба и теперь готовит спикеров для технических конференций и ведёт тренинги по выступлениям." ],
+    "imageUrl" : "https://images.contentful.com/ut4a3ciohj8i/6kgyEtJVkWUkUGkYGYcESg/2654ef7b93e2281400dc4c172cd49431/poborchy3.jpg?w=200"
+  } ],
+  "url" : "https://heisenbug-moscow.ru/talks/2017/msk/g6ie0nvjae06wge04iayk/",
+  "description" : [ "Мы поговорим об области, смежной с тестированием. После того, как вы проверили, что функциональность реализована нормально, она выкатывается в эксперимент, чтобы узнать, нравится ли новая версия пользователям. Замечали, что обычно люди, ответственные за эксперименты, в итоге говорят, что данных недостаточно для решения? Часто это действительно так, но нередко всё дело в поломках системы экспериментов и учёта пользовательской статистики. Мы рассмотрим типичные поломки, которые там встречаются, и у вас появится возможность, вернувшись на рабочее место, немножко побыть data scientist'ами и найти ошибки у себя в компании. Какие-то из них там наверняка есть." ]
+}, {
+  "id" : "Flaky tests",
+  "name" : "Flaky tests",
+  "speakers" : [ {
+    "speaker" : "Андрей Солнцев",
+    "company" : "Codeborne",
+    "bio" : [ "Андрей — разработчик в эстонской компании Codeborne. Автор фреймворка Selenide, организатор таллиннского Devclub, частый докладчик на конференциях. Ярый приверженец экстремального программирования, автоматических тестов, парного программирования и чистого кода." ],
+    "imageUrl" : "https://images.contentful.com/ut4a3ciohj8i/335EioMAg0qGYi6eIgkO4y/19ac9cb6b8bb88e9b3261c0ba1d2b153/asolntsev__1_.jpg?w=200"
+  } ],
+  "url" : "https://heisenbug-moscow.ru/talks/2017/msk/1su57z0to8qimacswsgksu/",
+  "description" : [ "Flaky tests — головная боль автотестеров. Ещё вчера тест был зелёный, а сегодня он вдруг покраснел — ни с того ни с сего. Никто ничего не менял. Просто луна не в той фазе. Просто матрица шутит над тобой.", "Мы разберём кучу реальных примеров flaky тестов из моей домашней коллекции. И разберёмся, как писать тесты, чтобы они были стабильными и независимыми от кармы разработчика.", "Доклад будет интересен и тестировщикам, и разработчикам — всем, кто балуется автотестами или просто любит разгадывать неразрешимые загадки." ]
+}, {
+  "id" : "Использование staging и differential testing для регрессионного тестирования",
+  "name" : "Использование staging и differential testing для регрессионного тестирования",
+  "speakers" : [ {
+    "speaker" : "Андрей Кулешов",
+    "company" : "Deutsche Bank",
+    "bio" : [ "В настоящее время Андрей работает в Deutsche Bank, занимается разработкой высоконагруженного server-side-приложения для биржевой торговли. Андрей — выпускник ВМК МГУ им. Ломоносова. Ранее работал в компании Intel в отделе разработки компиляторов, участвовал в написании тестового фреймворка и тестировании Intel C/C++ и open source Clang-компиляторов. Интересуется разработкой, автоматизацией процессов тестирования, оптимизацией процесса разработки ПО." ],
+    "imageUrl" : "https://images.contentful.com/ut4a3ciohj8i/5gQDxMLOxi0AIUS4SU60sm/db5756ca9a1f7c09f4372042b46e7ccb/________________1_.jpg?w=200"
+  } ],
+  "url" : "https://heisenbug-moscow.ru/talks/2017/msk/4qenaf9okmqmk8ke028co6/",
+  "description" : [ "Повторное возникновение ошибок после внесения изменений в код — достаточно частое явление, которое тратит много сил, нервов и времени любого разработчика. Поэтому регрессионное тестирование — важнейшая часть контроля качества программного продукта. Но что делать тестировщику, если необходимо следить за высоконагруженной системой с большим объемом входных данных и разнообразным функционалом?", "Параллельное тестирование (Prod Parallel) — подход, при котором одновременно с релизной версией разворачивается система с новой версией, получающая на вход тот же массив данных, что и продукт, находящийся в релизе. Именно этот подход приходит на помощь в случае, когда приложение имеет большой функционал, а команда тестировщиков крайне мала. Он экономит ресурсы QA, позволяет следить за изменением продукта и берет на себя часть регрессионного тестирования.", "В докладе будет рассказано, как выстроить процесс тестирования с использованием параллельной версии продукта, каковы плюсы и минусы этого подхода. Автор поделится своим успешным опытом такого тестирования на примере одного из компонентов платформы для биржевой торговли.", "Доклад может быть интересен как мануальным тестировщикам, так и QA-автоматизаторам." ]
+}, {
+  "id" : "Scaling Selenium",
+  "name" : "Scaling Selenium",
+  "speakers" : [ {
+    "speaker" : "Simon Stewart",
+    "company" : "The Selenium Project",
+    "bio" : [ "Simon Stewart is the creator of WebDriver, the Open Source browser automation tool, and is the Selenium project lead. He previously led the build tool team at Facebook, developing the graph-based build tool Buck, and being a strong advocate of monorepos. Before joining Facebook, he spent almost five years at Google, and three at ThoughtWorks. He’s seen a lot of code.", "Simon has an interest in byte-for-byte reproducible builds at incredible speed, and describes himself as “undeniably hairy”." ],
+    "imageUrl" : "https://images.contentful.com/ut4a3ciohj8i/1xgKYiOX5CIyoImwiqwOgE/75331b93fb6056956c514ec2ec4fdc07/stewart_simon__1_.jpg?w=200"
+  } ],
+  "url" : "https://heisenbug-moscow.ru/talks/2017/msk/4axfxghfmo0ke0oyyack6g/",
+  "description" : [ "Imagine you only had a single Selenium test. What would make it unstable? How could you make it faster? Now imagine you have two. Now hundreds. How would you make them run more quickly? What problems would you encounter as your test suite grew in size?", "In this talk, we'll follow the journey of a test suite from its first test all the way up to running hundreds of tests in parallel. We'll explore the problems you'll encounter, and suggest practical ways of dealing with those issues. There will be code! There will be discussion about hardware! There will be thought put into build and test infrastructure!" ]
+}, {
+  "id" : "Рецепт приготовления web-тестов",
+  "name" : "Рецепт приготовления web-тестов",
+  "speakers" : [ {
+    "speaker" : "Артем Ерошенко",
+    "company" : "Независимый консультант",
+    "bio" : [ "Более 8 лет занимается автоматизацией тестирования web-приложений. За это время работал в разных командах и в разных ролях: автоматизатор тестирования, менеджер команды разработки инструментов тестирования, руководитель группы автоматизации тестирования. Артём имеет большой опыт работы с популярными инструментами (Selenium, HtmlElements, Allure, Jenkins). Программирует в основном на Java, Groovy." ],
+    "imageUrl" : "https://images.contentful.com/ut4a3ciohj8i/2kIroZPCfO6sEMyWmQM2W2/4ce49000901c4151020e4b2cd29a6324/eroshenko.jpeg?w=200"
+  } ],
+  "url" : "https://heisenbug-moscow.ru/talks/2017/msk/3dbmqkrm5waqwummcu44ea/",
+  "description" : [ "Несколько лет назад я рассказывал про то, как мы в Яндексе пишем web-тесты. На тот момент мы использовали трехслойную архитектуру тесты <-> степы <-> пейджи. Много времени утекло с того времени, мы немного изменили подход, сделали упор на скорость написания тестов и отсутствие контекста. В этом докладе я хочу рассказать, как эволюционировала наша модель написания web-тестов на java:" ]
+}, {
+  "id" : "Как сообщать пользователю, если «Упс, что-то пошло не так»",
+  "name" : "Как сообщать пользователю, если «Упс, что-то пошло не так»",
+  "speakers" : [ {
+    "speaker" : "Антонина Хисаметдинова",
+    "company" : "Собака Павлова",
+    "bio" : [ "Занимается проектированием пользовательских интерфейсов 5 лет. Области профессиональных интересов: проектирование взаимодействия человека и техники, исследования пользователей и аналитика данных, методики обучения, рисование интерфейсов головой." ],
+    "imageUrl" : "https://images.contentful.com/ut4a3ciohj8i/35HunAsNx6k2EE2umsqyg0/d59f4e987c7fd88bf83f916b8350fd88/_______________________________1_.jpg?w=200"
+  } ],
+  "url" : "https://heisenbug-moscow.ru/talks/2017/msk/r7sufbayss4kcoau6s6ys/",
+  "description" : [ "При разработке любого ПО команды — как большие, так и маленькие — уделяют проработке сценариев с ошибками и сбоями слишком мало времени.", "Многие просто создают однотипные интерфейсные окна типа «Ошибка № 392904» или «Упс, что-то пошло не так», не задумываясь, что почувствует пользователь. А ведь он может разозлиться, расстроиться или, хуже того, потерять доверие к продукту.", "Доклад поможет взглянуть на ошибки программного обеспечения глазами обычных людей. Мы поговорим о том, как научить интерфейс грамотно сообщать об ошибках и сбоях, чтобы не бесить пользователей.", "Доклад ориентирован на всех членов команды разработки." ]
+}, {
+  "id" : "Тестирование «капитальных» объектов",
+  "name" : "Тестирование «капитальных» объектов",
+  "speakers" : [ {
+    "speaker" : "Вячеслав Аленьков",
+    "company" : "Росатом",
+    "bio" : [ "Директор по Системной инженерии и ИТ в Атомстройэкспорт-НИАЭП." ],
+    "imageUrl" : "https://images.contentful.com/ut4a3ciohj8i/MtvGBpN4Gq4c4m6kc2ae4/aa631c6522dd864307116a00dc199702/ROSATOM_514.jpg?w=200"
+  } ],
+  "url" : "https://heisenbug-moscow.ru/talks/2017/msk/2p3ugzjvbucmsgy86qask6/",
+  "description" : [ "Мы уже привыкли, что запуск тестов производится нажатием одной кнопки. Проверки проходят автоматически при каждом коммите, статистики собираются без участия тестировщика. А баги заводятся в полуавтоматическом режиме. В общем, мы привыкли применять технологии программной и системной инженерии к нашим программным проектам. А теперь представьте себе, что перед вами стоит задача протестировать работу атомной электростанции. Нужно не только протестировать ее софт, но и провести испытания всех ее составляющих.", "Разумеется, никто не сможет сначала построить станцию и потом перенести несущую стену из-за того, что система вентиляции не сможет быть смонтирована в текущей конфигурации. Поэтому процессы реального мира все больше уходят в «цифру». Как вам понравится комментарий к коммиту «Перенос капитальной стены на 2 метра севернее»? При проектировании и тестировании АЭС применяется полностью цифровой подход: создается информационная модель, к ней применяется классическая V-модель управления жизненным циклом. Таким образом, АЭС превращается в тиражируемый и полностью цифровой объект. Тестирование и запуск современных АЭС происходит в цифровом виде, и только после этого строители приступают к монтажу, используя все те же цифровые модели.", "В докладе вы узнаете о том, что представляет собой современная информационная система, как происходит разработка и тестирование «капитальных» объектов на примере АЭС." ]
+}, {
+  "id" : "Selenoid — сотни параллельных UI-тестов легко и быстро",
+  "name" : "Selenoid — сотни параллельных UI-тестов легко и быстро",
+  "speakers" : [ {
+    "speaker" : "Павел Сенин",
+    "company" : "EPAM Systems",
+    "bio" : [ "Test Automation Engineer в компании EPAM Systems. Карьеру в ИТ начал более 10 лет назад сисадмином и постепенно перешёл в тестирование. Уверен, что если на проекте есть здравая стратегия тестирования и грамотное сочетание инструментов автоматизации, то автотесты обязательно принесут существенную ценность для бизнеса, т.к. будут предоставлять актуальную и достоверную информацию о текущем состоянии продукта." ],
+    "imageUrl" : "https://images.contentful.com/ut4a3ciohj8i/5KU6j8s5LqkseoUW2uwqme/5e9410633bd18fb8af18f90017996bab/Senin_P__1_.jpg?w=200"
+  } ],
+  "url" : "https://heisenbug-moscow.ru/talks/2017/msk/3g17fdbqvyoqws06kwmwwk/",
+  "description" : [ "Браузерные тесты являются одними из самых медленных и ненадежных способов тестирования приложений. В докладе на примере реального проекта будет продемонстрировано, как Selenoid может помочь в решении этой проблемы. Будет проведено сравнение Selenium Server и Selenoid." ]
+}, {
+  "id" : "Loading time testing and results visualisation of web games",
+  "name" : "Loading time testing and results visualisation of web games",
+  "speakers" : [ {
+    "speaker" : "Andrejs Kalnacs",
+    "company" : "Evolution Gaming",
+    "bio" : [ "Andrejs Kalnacs is devoted to testing automation and software quality, mastering mobile web app testing.", "Andrejs has 10 years of industry experience in software testing in different business domains – gaming, mobile telecommunications, biometrics, banking and retail.", "Currently Andrejs works as a Lead Software Developer in Test at Evolution Gaming, skyrocketing web app testing to new level – implementing not only functional testing solutions, but also non-functional – as performance and load time tests.", "He is known for his passion to help other engineers by mentoring, motivating and inspiring them to think out of the box, learn, and apply more efficient tools and solutions." ],
+    "imageUrl" : "https://images.contentful.com/ut4a3ciohj8i/771Bz4OOXKkY0mUqQmKYSK/090942aa1ae558e42745d823171d6fea/andrejsk__1_.jpg?w=200"
+  } ],
+  "url" : "https://heisenbug-moscow.ru/talks/2017/msk/jjnfwa6ewsussuce2kmoe/",
+  "description" : [ "Loading time of an application is a very important metric to be sure that the best possible user experience is delivered and no regression has been introduced.", "It is especially important for web games, because when accessed for the first time all assets are fetched from the Internet and rendered on different platforms (JS/HTML5 and Flash) and devices (Android and iOS phones and tablets).", "This talk consists of two part: the first one will cover not only all needed blocks to build a fully automated testing pipeline for web games loading time testing, using such technologies as Selenium WebDriver, Selenium Grid, Appium, Zaproxy, Linux traffic control, Jenkins and Docker, but also what are the most important metrics, what kind of data we can collect and how we can store it.", "The second part of this talk will be dedicated to tests results visualisation which can be applied to a much larger scope than web games loading testing using such tools as InfluxDB and Grafana." ]
+}, {
+  "id" : "BDD в розовом цвете",
+  "name" : "BDD в розовом цвете",
+  "speakers" : [ {
+    "speaker" : "Анна Чернышева",
+    "company" : "EPAM Systems",
+    "bio" : [ "Lead Software Test Automation Engineer в EPAM Systems. Является ярым сторонником BDD. Успела поработать со многими инструментами автоматизации, принять участие в разработке тестовых фреймворков для крупных e-commerce-проектов. Сейчас участвует в разработке BDD-библиотеки для автоматизации тестирования и занимается внедрением DevOps-практик в Альфа-Лаборатории." ],
+    "imageUrl" : "https://images.contentful.com/ut4a3ciohj8i/23oumgBNe44mUgAGwu8SsG/0f3bd58807a4b11e45414ea41549775b/___________________________.jpg?w=200"
+  } ],
+  "url" : "https://heisenbug-moscow.ru/talks/2017/msk/19gf7yiuomm0qeoi0ukiie/",
+  "description" : [ "Наверняка многие сталкивались со сложностями внедрения автоматизации тестирования в процесс Continuous Delivery. Как быстро стартануть автоматизацию сразу в нескольких командах, обеспечить единство технических решений, не потерять в качестве, да ещё и техдолга не нахвататься? Что, если любой член команды сможет писать автотесты, которые к тому же будут генерировать документацию на UI?", "В докладе мы расскажем о том, как в Альфа-Лаборатории нам удалось разработать и внедрить BDD библиотеку шагов для написания автотестов и какие технические решения позволяют нам за недельный спринт доносить до клиента новую протестированную фичу, полностью покрытую автотестами, да ещё и с готовой, актуальной документацией." ]
+}, {
+  "id" : "Автотесты в World of Tanks: боты на страже качества",
+  "name" : "Автотесты в World of Tanks: боты на страже качества",
+  "speakers" : [ {
+    "speaker" : "Александр Шуков",
+    "company" : "Wargaming.net",
+    "bio" : [ "С 2011 года работает в Wargaming.net на проекте World Of Tanks в должности QA-инженера, пройдя путь от «джуна на все руки» до лида автоматизации. Последние 2 года занимается функциональными автотестами и нагрузочным тестированием игрового сервера." ],
+    "imageUrl" : "https://images.contentful.com/ut4a3ciohj8i/7vyegOO6LmaAIYIswe6QQC/1f2af58d8776d16715115a79012ea4d7/___________1__1_.jpg?w=200"
+  } ],
+  "url" : "https://heisenbug-moscow.ru/talks/2017/msk/31zwck9sa4goccu0ygo2qq/",
+  "description" : [ "В данном докладе коснемся общих проблем и подходов автоматизации тестирования в GameDev на примере проекта World of Tanks. Расскажем, как, перепробовав всё (от кликеров до инъекций кода в клиент-сервер), мы пришли к «bot-net» – тестовому фреймворку для «World of Tanks» со сценариями тестов на Python, посмотрим на его устройство и применение.", "Доклад больше фокусируется на вопросах построения инфраструктуры и среды для тестов, чем на самих тестах для игр.", "Доклад будет интересен QA в GameDev, а также всем любознательным, кого интересует жизнь за пределами WebDriver, JUnit, PyTest и так далее." ]
+}, {
+  "id" : "Как построить свой фреймворк для автотестов?",
+  "name" : "Как построить свой фреймворк для автотестов?",
+  "speakers" : [ {
+    "speaker" : "Дмитрий Буздин",
+    "company" : "Riga Dev Days",
+    "bio" : [ "Will be later" ],
+    "imageUrl" : "https://images.contentful.com/ut4a3ciohj8i/Lo9wydf806Csy6WqwK2s2/081813ea71e4f0dbd796f3528914ca14/blank-profile-picture.png?w=200"
+  } ],
+  "url" : "https://heisenbug-moscow.ru/talks/2017/msk/39ywj3xis860os0goimgei/",
+  "description" : [ "Even though there are plenty of open source tools on the market every company needs to put them together and create a test automation framework on top. Best practices of doing that are quite well-known in industry and it is important to learn them before building your own framework. We will go through the core building blocks of test automation frameworks and how they are playing together. You will learn how to assemble your test automation toolchain out of open source libraries and how to integrate them together. The session will be heavily biased towards Java platform." ]
+}, {
+  "id" : "Truths about technical testing",
+  "name" : "Truths about technical testing",
+  "speakers" : [ {
+    "speaker" : "Alan Page",
+    "company" : "Unity",
+    "bio" : [ "Alan Page has been a software tester for nearly 25 years. He was the lead author of the book \"How We Test Software at Microsoft\", contributed chapters for \"Beautiful Testing and Experiences of Test Automation: Case Studies of Software Test Automation\". He also writes about a variety of software engineering subjects (and other assorted rants) on his blog, and elsewhere on the internet. His latest “book” is a collection of essays on test automation called \"The A Word\".", "Alan joined Microsoft as a member of the Windows 95 team, and since then has worked on a variety of Windows releases, early versions of Internet Explorer, and Office Lync. Notably, Alan served for over two years as Microsoft’s Director of Test Excellence.", "In January of 2017, Alan left Microsoft to become the Director of Quality for Unity services." ],
+    "imageUrl" : "https://images.contentful.com/ut4a3ciohj8i/31DRIcKB2MsAAomyACcysg/89f01e9bd592c0366922a5ea194e16cf/alan_page__1_.jpg?w=200"
+  } ],
+  "url" : "https://heisenbug-moscow.ru/talks/2017/msk/1tquz3o2n2qi6waqio4ca2/",
+  "description" : [ "Most of us in software testing have heard leaders — or read articles about “technical testers”. Of course, technical knowledge is critical for testing success, but while most talk of technical testing is about taking on the challenge of test automation, there are almost always more valuable applications of technical know-how where testers can focus.", "In this keynote session, long-time tester Alan Page shares his take on technical testing, why he is asking his own teams to write less automation, and how testers can provide their technical background to provide massive value to their teams.", "Along with the rants, Alan will share examples of some of his favorite and most practical testing tools and discuss the power of building a broad tester toolbox." ]
+} ]
